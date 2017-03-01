@@ -1,0 +1,32 @@
+h1 {
+  font-size: modular-scale(3);
+  @include mq-sm {
+    font-size: modular-scale(4);
+  }
+}
+h2 {
+  font-size: modular-scale(2);
+  @include mq-sm {
+    font-size: modular-scale(3);
+  }
+}
+h3 {
+  font-size: modular-scale(1);
+  @include mq-sm {
+    font-size: modular-scale(2);
+  }
+}
+h4 {
+  font-size: modular-scale(0);
+  @include mq-sm {
+    font-size: modular-scale(1);
+  }
+}
+
+.container {
+  margin: auto;
+  max-width: 92%;
+  @include mq-xl {
+      width: 1200px;
+  }
+}

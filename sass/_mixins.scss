@@ -1,0 +1,22 @@
+/* MEDIA QUERIES */
+
+@mixin mq-sm {
+  @media (min-width: #{$small-screen}) {
+    @content;
+  }
+}
+@mixin mq-md {
+  @media (min-width: #{$medium-screen}) {
+    @content;
+  }
+}
+@mixin mq-lg {
+  @media (min-width: #{$large-screen}) {
+    @content;
+  }
+}
+@mixin mq-xl {
+  @media (min-width: #{$x-large-screen}) {
+    @content;
+  }
+}
