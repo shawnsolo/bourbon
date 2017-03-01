@@ -1,0 +1,15 @@
+.poop {
+  color: red; }
+
+.boxes::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+.box {
+  height: 100px;
+  width: 100px;
+  background: #666666;
+  margin: 20px;
+  color: white;
+  float: left; }
